@@ -104,3 +104,1668 @@ Rendering rescues/layout (internal_server_error)
 Processing PagesController#homepage (for 127.0.0.1 at 2009-09-30 19:33:09) [GET]
 Rendering pages/homepage
 Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:43:25) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 46ms (View: 44 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:43:45) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:43:47) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:44:06) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 3 | 200 OK [http://localhost/pages/homepage]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:44:08) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/pages/homepage]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:44:20) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:45:18) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:46:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:50:20) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:50:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:50:52) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 19:51:19) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:05:03) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:05:08) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 53ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:05:09) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:09:32) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:09:33) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:09:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:09:47) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:15:06) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #15 of app/views/layouts/application.haml:
+12:       %ul.gallery_demo_unstyled
+13:       - images = %w{flowing-rock.jpg stones.jpg grass-blades.jpg ladybug.jpg lightning.jpg lotus.jpg mojave.jpg pier.jpg sea-mist.jpg}
+14:       }
+15:         - images.each do |image|
+16:           %li
+17:             = image_tag image
+18:     %p.nav
+
+    app/views/layouts/application.haml:15
+    haml (2.2.6) [v] lib/haml/precompiler.rb:312:in `push_plain'
+    haml (2.2.6) [v] lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.6) [v] lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.6) [v] lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.6) [v] rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.6) [v] rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (86.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:15:15) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+ERROR: compiling _run_haml_app47views47layouts47application46haml RAISED compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:22: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47layouts47application46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :encoding=>nil, :ugly=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+_hamlout.push_text("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='en'>\n  <head>\n    #{_hamlout.adjust_tabs(2); haml_temp =  stylesheet_link_tag "application", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  stylesheet_link_tag "reset", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </head>\n  <body>\n    #{haml_temp =  yield
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    <h1>Galleria Demo 02</h1>\n    <div class='demo'>\n      <ul class='gallery_demo_unstyled'></ul>\n", 1, false); images = %w{flowing-rock.jpg stones.jpg grass-blades.jpg ladybug.jpg lightning.jpg lotus.jpg mojave.jpg pier.jpg sea-mist.jpg};
+ images.each do |image|;
+
+_hamlout.push_text("      <li>\n        #{_hamlout.adjust_tabs(1); haml_temp =  image_tag image
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </li>\n", -1, false);end;end;
+
+_hamlout.push_text("    </div>\n    <p class='nav'>\n      #{haml_temp =  link_to_function "previous", "$.galleria.prev()"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      |\n      #{haml_temp =  link_to_function "next", "$.galleria.next()"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </p>\n  </body>\n</html>\n", -3, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:22:in `compile!'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/template.rb:199:in `render_template'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:347:in `_render_with_layout'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:257:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1326:in `default_render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `send'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:22: syntax error, unexpected kENSURE, expecting $end) on line #22 of app/views/layouts/application.haml:
+19:       |
+20:       = link_to_function "next", "$.galleria.next()"
+21:     
+
+    app/views/layouts/application.haml:22:in `compile!'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (29.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:15:20) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+ERROR: compiling _run_haml_app47views47layouts47application46haml RAISED compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:21: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47layouts47application46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :encoding=>nil, :ugly=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+_hamlout.push_text("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='en'>\n  <head>\n    #{_hamlout.adjust_tabs(2); haml_temp =  stylesheet_link_tag "application", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  stylesheet_link_tag "reset", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </head>\n  <body>\n    #{haml_temp =  yield
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    <h1>Galleria Demo 02</h1>\n    <div class='demo'>\n      <ul class='gallery_demo_unstyled'></ul>\n", 1, false); images = %w{flowing-rock.jpg stones.jpg grass-blades.jpg ladybug.jpg lightning.jpg lotus.jpg mojave.jpg pier.jpg sea-mist.jpg};
+ images.each do |image|;
+
+_hamlout.push_text("      <li>\n        #{_hamlout.adjust_tabs(1); haml_temp =  image_tag image
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </li>\n", -1, false);end;end;
+_hamlout.push_text("    </div>\n    <p class='nav'>\n      #{haml_temp =  link_to_function "previous", "$.galleria.prev()"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  link_to_function "next", "$.galleria.next()"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </p>\n  </body>\n</html>\n", -3, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:21:in `compile!'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/template.rb:199:in `render_template'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:347:in `_render_with_layout'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:257:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1326:in `default_render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `send'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:21: syntax error, unexpected kENSURE, expecting $end) on line #21 of app/views/layouts/application.haml:
+18:       = link_to_function "previous", "$.galleria.prev()"
+19:       = link_to_function "next", "$.galleria.next()"
+20:     
+
+    app/views/layouts/application.haml:21:in `compile!'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (28.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:15:49) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+ERROR: compiling _run_haml_app47views47layouts47application46haml RAISED compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:21: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47layouts47application46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :encoding=>nil, :ugly=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+_hamlout.push_text("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='en'>\n  <head>\n    #{_hamlout.adjust_tabs(2); haml_temp =  stylesheet_link_tag "application", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  stylesheet_link_tag "reset", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </head>\n  <body>\n    #{haml_temp =  yield
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    <h1>Galleria Demo 02</h1>\n    <div class='demo'>\n      <ul class='gallery_demo_unstyled'></ul>\n", 1, false); images = %w{flowing-rock.jpg stones.jpg grass-blades.jpg ladybug.jpg lightning.jpg lotus.jpg mojave.jpg pier.jpg sea-mist.jpg};
+ images.each do |image|;
+
+_hamlout.push_text("      <li>\n        #{_hamlout.adjust_tabs(1); haml_temp =  image_tag image
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </li>\n", -1, false);end;end;
+_hamlout.push_text("    </div>\n    <p class='nav'>\n      #{haml_temp =  link_to_function "previous", "$.galleria.prev()"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  link_to_function "next", "$.galleria.next()"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </p>\n  </body>\n</html>\n", -3, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:21:in `compile!'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/template.rb:199:in `render_template'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:347:in `_render_with_layout'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:257:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1326:in `default_render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `send'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:21: syntax error, unexpected kENSURE, expecting $end) on line #21 of app/views/layouts/application.haml:
+18:       = link_to_function "previous", "$.galleria.prev()"
+19:       = link_to_function "next", "$.galleria.next()"    
+
+    app/views/layouts/application.haml:21:in `compile!'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:16:08) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+ERROR: compiling _run_haml_app47views47layouts47application46haml RAISED compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:21: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47layouts47application46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :encoding=>nil, :ugly=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+_hamlout.push_text("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='en'>\n  <head>\n    #{_hamlout.adjust_tabs(2); haml_temp =  stylesheet_link_tag "application", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  stylesheet_link_tag "reset", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </head>\n  <body>\n    #{haml_temp =  yield
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    <h1>Galleria Demo 02</h1>\n    <div class='demo'>\n      <ul class='gallery_demo_unstyled'></ul>\n", 1, false); images = %w{flowing-rock.jpg stones.jpg grass-blades.jpg ladybug.jpg lightning.jpg lotus.jpg mojave.jpg pier.jpg sea-mist.jpg};
+ images.each do |image|;
+
+_hamlout.push_text("      <li>\n        #{_hamlout.adjust_tabs(1); haml_temp =  image_tag image
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </li>\n", -1, false);end;end;
+_hamlout.push_text("    </div>\n    <p class='nav'>\n      #{haml_temp =  link_to_function "previous", "$.galleria.prev()"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  link_to_function "next", "$.galleria.next()"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </p>\n  </body>\n</html>\n", -3, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:21:in `compile!'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/template.rb:199:in `render_template'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:347:in `_render_with_layout'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:257:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1326:in `default_render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `send'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:21: syntax error, unexpected kENSURE, expecting $end) on line #21 of app/views/layouts/application.haml:
+18:       = link_to_function "previous", "$.galleria.prev()"
+19:       = link_to_function "next", "$.galleria.next()"    
+
+    app/views/layouts/application.haml:21:in `compile!'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (27.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:16:14) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 61ms (View: 60 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:16:20) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+ERROR: compiling _run_haml_app47views47layouts47application46haml RAISED compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:18: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47layouts47application46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :encoding=>nil, :ugly=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+_hamlout.push_text("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html lang='en'>\n  <head>\n    #{_hamlout.adjust_tabs(2); haml_temp =  stylesheet_link_tag "application", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  stylesheet_link_tag "reset", :media => 'screen'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </head>\n  <body>\n    #{haml_temp =  yield
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    <h1>Galleria Demo 02</h1>\n    <div class='demo'>\n      <ul class='gallery_demo_unstyled'></ul>\n", 1, false); images = %w{flowing-rock.jpg stones.jpg grass-blades.jpg ladybug.jpg lightning.jpg lotus.jpg mojave.jpg pier.jpg sea-mist.jpg};
+ images.each do |image|;
+
+_hamlout.push_text("      <li>\n        #{_hamlout.adjust_tabs(1); haml_temp =  image_tag image
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </li>\n", -1, false);end;end;_hamlout.push_text("    </div>\n  </body>\n</html>\n", -3, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:18:in `compile!'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/template.rb:199:in `render_template'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:347:in `_render_with_layout'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_view/base.rb:257:in `render_without_haml'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1326:in `default_render'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/tinney/projects/flickrWebSite/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `send'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/tinney/projects/flickrWebSite/vendor/gems/haml-2.2.6/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Users/tinney/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/tinney/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Users/tinney/projects/flickrWebSite/vendor/rails/railties/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/tinney/projects/flickrWebSite/app/views/layouts/application.haml:18: syntax error, unexpected kENSURE, expecting $end) on line #18 of app/views/layouts/application.haml:
+15:           %li
+16:             = image_tag image
+
+    app/views/layouts/application.haml:18:in `compile!'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (29.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:16:32) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/flowing-rock.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/stones.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/grass-blades.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/ladybug.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/lightning.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/lotus.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/mojave.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/pier.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/sea-mist.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:18:31) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:19:07) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+
+ActionView::TemplateError (Inconsistent indentation: "    \t" was used for indentation, but the rest of the document was indented using 2 spaces.) on line #8 of app/views/layouts/application.haml:
+5:     = stylesheet_link_tag "reset", :media => 'screen'
+6:     =javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
+7:     :javascript
+8:     	$(document).ready(function(){
+9: 
+10:         $('.gallery_demo_unstyled').addClass('gallery_demo'); // adds new class name to maintain degradability
+11:     		$('.nav').css('display','none'); // hides the nav initially
+
+    app/views/layouts/application.haml:8
+    haml (2.2.6) [v] lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.6) [v] lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.6) [v] lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.6) [v] lib/haml/precompiler.rb:876:in `next_line'
+    haml (2.2.6) [v] lib/haml/precompiler.rb:158:in `precompile'
+    haml (2.2.6) [v] lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.6) [v] rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.6) [v] rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (32.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:19:16) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+
+ActionView::TemplateError (Invalid filter name "::javascript".) on line #7 of app/views/layouts/application.haml:
+4:     = stylesheet_link_tag "application", :media => 'screen'
+5:     = stylesheet_link_tag "reset", :media => 'screen'
+6:     =javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
+7:     ::javascript
+8:       $(document).ready(function(){
+9: 
+10:         $('.gallery_demo_unstyled').addClass('gallery_demo'); // adds new class name to maintain degradability
+
+    app/views/layouts/application.haml:7
+    haml (2.2.6) [v] lib/haml/precompiler.rb:839:in `start_filtered'
+    haml (2.2.6) [v] lib/haml/precompiler.rb:237:in `process_line'
+    haml (2.2.6) [v] lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.6) [v] lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.6) [v] rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.6) [v] rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (38.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:20:08) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:20:28) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:20:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:20:34) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:21:26) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:21:27) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:21:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:22:27) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:22:27) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/galleria.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:22:27) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/galleria.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:22:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:22:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/galleria.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:22:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/galleria.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:22:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 12ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:23:34) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:23:37) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:24:30) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:24:32) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:25:28) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:25:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:26:21) [GET]
+
+NoMethodError (undefined method `application2' for #<PagesController:0x10230aba8>):
+  haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (25.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 52ms (View: 51 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/trunk/galleria.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/jquery.min.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/trunk/jquery.galleria.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/trunk/jquery.galleria.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/flowing-rock.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/stones.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/grass-blades.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/ladybug.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/lightning.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/lotus.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/mojave.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/pier.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:26:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/sea-mist.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:27:25) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:27:25) [GET]
+
+ActionController::RoutingError (No route matches "/trunk/galleria.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:27:25) [GET]
+
+ActionController::RoutingError (No route matches "/jquery.min.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:27:25) [GET]
+
+ActionController::RoutingError (No route matches "/trunk/jquery.galleria.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:28:08) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-08 20:28:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/galleria.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:28:20) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:28:21) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:28:25) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:30:17) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:33:10) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:33:12) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:33:14) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:33:16) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:35:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:36:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:37:22) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 45ms (View: 43 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:37:24) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 5ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:37:26) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:40:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:40:30) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 43ms (View: 41 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:40:52) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:41:04) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:41:21) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:41:35) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 42ms (View: 40 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:41:45) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:42:18) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:44:47) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:45:17) [GET]
+Rendering template within layouts/application2
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:45:59) [GET]
+
+ActionView::MissingTemplate (Missing layout layouts/application2.erb in view path app/views):
+  haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:46:00) [GET]
+
+ActionView::MissingTemplate (Missing layout layouts/application2.erb in view path app/views):
+  haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:46:11) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:49:59) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (1.0ms)
+Completed in 10ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:50:18) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:53:04) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-08 20:57:50) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.2ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 08:48:24) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.7ms)
+Completed in 28ms (View: 26 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 08:48:24) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.2ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 08:49:11) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:50:54) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (19.3ms)
+Completed in 58ms (View: 57 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:52:34) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:52:37) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:52:48) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:52:59) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 44ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:53:16) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 8ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:53:45) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:54:17) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 8ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:54:19) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:54:28) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:54:30) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:55:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 10ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:55:10) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 8ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:55:36) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:55:38) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 5ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:55:45) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:55:48) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 10:57:31) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:08:42) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:08:42) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:08:53) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:09:10) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:09:35) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:09:42) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:11:30) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:12:18) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:12:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:12:53) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:13:32) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:13:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:14:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:14:59) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Rendered shared/_nav (0.1ms)
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:16:47) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:16:50) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:16:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:17:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:18:59) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:19:04) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:19:19) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:19:20) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]

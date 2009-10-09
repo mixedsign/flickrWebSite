@@ -1,0 +1,44 @@
+* html .galleria li div span
+  width: 400px
+
+.galleria
+  list-style: none
+  width: 200px
+
+  li
+    display: block
+    width: 80px
+    height: 80px
+    overflow: hidden
+    float: left
+    margin: 0 10px 10px 0
+    
+    a
+      display: none
+    div
+      position: absolute
+      display: none
+      top: 0 
+      left: 180px
+      img
+        cursor: pointer
+      img.active
+        display: block
+      .caption
+        display: block
+        padding-top: .5em
+    img.thumb
+      cursor: pointer
+      top: auto
+      left: auto
+      display: block
+      width: auto
+      height: auto
+    
+  .active
+    div
+      display: block
+    
+
+h1
+  color: blue

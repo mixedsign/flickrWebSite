@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Galleria Demo 2</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="imagetoolbar" content="false">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link href="stylesheets/application.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="screen">
+  <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.galleria.js"></script>
+  <script type="text/javascript">
+    function jsonFlickrApi(data) {
+      $.each(data.photosets.photoset, function(index, element) {
+        $("<li>" + element.title._content + "- (" + element.photos + ")</li>").appendTo("#main-nav")
+      })
+    }
+    
+    $.getJSON("http://www.flickr.com/services/rest/?method=flickr.photosets.getList&format=json&api_key=665ce114a853cf8009f7ad5bb92bf9c6&jsoncallback=?&user_id=22691397@N06", jsonFlickrApi);
+  </script>
+</head>
+  <body>
+    <ul id="main-nav">
+    </ul>
+    <div class="demo">
+      <div id="images"></div>
+      <%= yield %>
+      <ul class="gallery_demo_unstyled">
+          <li><img src="images/flowing-rock.jpg" alt="Flowing Rock" title="Flowing Rock Caption"></li>
+          <li><img src="images/stones.jpg" alt="Stones" title="Stones - from Aple images"></li>
+          <li><img src="images/grass-blades.jpg" alt="Grass Blades" title="Apple nature desktop images"></li>
+          <li><img class="noscale" src="images/ladybug.jpg" alt="Ladybug" title="Ut rutrum, lectus eu pulvinar elementum, lacus urna vestibulum ipsum"></li>
+          <li><img src="images/lightning.jpg" alt="Lightning" title="Black &amp; White"></li>
+          <li><img src="images/lotus.jpg" alt="Lotus" title="Fusce quam mi, sagittis nec, adipiscing at, sodales quis"></li>
+          <li><img src="images/mojave.jpg" alt="Mojave" title="Suspendisse volutpat posuere dui. Suspendisse sit amet lorem et risus faucibus pellentesque."></li>
+          <li><img src="images/pier.jpg" alt="Pier" title="Proin erat nisi"></li>
+          <li><img src="images/sea-mist.jpg" alt="Sea Mist" title="Caption text from title"></li>
+      </ul>
+      <p class="nav"><a href="#" onclick="$.galleria.prev(); return false;">previous</a> | <a href="#" onclick="$.galleria.next(); return false;">next</a></p>
+    </div>
+  </body>
+</html>
