@@ -1769,3 +1769,531 @@ Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 11:19:20) [GET]
 Rendering template within layouts/application
 Rendering pages/homepage
 Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:07:16) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 97ms (View: 96 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:08:03) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:18:00) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:18:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:18:14) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 38ms (View: 37 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:18:15) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:19:47) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:20:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:20:43) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:20:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:21:16) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:21:36) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:22:07) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:22:16) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:22:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:23:02) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:25:14) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:25:23) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:25:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:25:42) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:25:43) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:25:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:26:05) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:26:37) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:26:38) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:27:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:27:33) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:27:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 32ms (View: 31 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:34:07) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:35:15) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:37:19) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:37:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:39:17) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:41:22) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:42:11) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:45:07) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:45:18) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:54:26) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:54:28) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-09 16:54:35) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 09:08:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 140ms (View: 136 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 09:10:31) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 19ms (View: 18 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 09:12:53) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 09:13:48) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 09:14:22) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 11ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 09:14:23) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 09:14:36) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 11:54:22) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 172ms (View: 82 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 11:54:24) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:30:55) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 56ms (View: 55 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:37:05) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:38:39) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:38:57) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:46:18) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:46:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:47:28) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:48:15) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:49:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:50:45) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:51:12) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:51:20) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:51:26) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:51:36) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:51:46) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:55:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:55:47) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:55:49) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:55:49) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:56:07) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:56:46) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:57:51) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 38ms (View: 37 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:58:33) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:58:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 13:59:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:04:03) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:04:42) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 42ms (View: 41 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:07:37) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:07:42) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:07:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:08:33) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:09:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:10:48) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:11:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:12:11) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:12:57) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:15:49) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:16:37) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-10-11 14:17:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]

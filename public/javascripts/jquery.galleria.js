@@ -379,17 +379,17 @@ $.extend({galleria : {
 jQuery.extend({historyCurrentHash:undefined,historyCallback:undefined,historyInit:function(callback){jQuery.historyCallback=callback;var current_hash=location.hash;jQuery.historyCurrentHash=current_hash;if(jQuery.browser.msie){if(jQuery.historyCurrentHash==''){jQuery.historyCurrentHash='#'}$("body").prepend('<iframe id="jQuery_history" style="display: none;"></iframe>');var ihistory=$("#jQuery_history")[0];var iframe=ihistory.contentWindow.document;iframe.open();iframe.close();iframe.location.hash=current_hash}else if($.browser.safari){jQuery.historyBackStack=[];jQuery.historyBackStack.length=history.length;jQuery.historyForwardStack=[];jQuery.isFirst=true}jQuery.historyCallback(current_hash.replace(/^#/,''));setInterval(jQuery.historyCheck,100)},historyAddHistory:function(hash){jQuery.historyBackStack.push(hash);jQuery.historyForwardStack.length=0;this.isFirst=true},historyCheck:function(){if(jQuery.browser.msie){var ihistory=$("#jQuery_history")[0];var iframe=ihistory.contentDocument||ihistory.contentWindow.document;var current_hash=iframe.location.hash;if(current_hash!=jQuery.historyCurrentHash){location.hash=current_hash;jQuery.historyCurrentHash=current_hash;jQuery.historyCallback(current_hash.replace(/^#/,''))}}else if($.browser.safari){if(!jQuery.dontCheck){var historyDelta=history.length-jQuery.historyBackStack.length;if(historyDelta){jQuery.isFirst=false;if(historyDelta<0){for(var i=0;i<Math.abs(historyDelta);i++)jQuery.historyForwardStack.unshift(jQuery.historyBackStack.pop())}else{for(var i=0;i<historyDelta;i++)jQuery.historyBackStack.push(jQuery.historyForwardStack.shift())}var cachedHash=jQuery.historyBackStack[jQuery.historyBackStack.length-1];if(cachedHash!=undefined){jQuery.historyCurrentHash=location.hash;jQuery.historyCallback(cachedHash)}}else if(jQuery.historyBackStack[jQuery.historyBackStack.length-1]==undefined&&!jQuery.isFirst){if(document.URL.indexOf('#')>=0){jQuery.historyCallback(document.URL.split('#')[1])}else{var current_hash=location.hash;jQuery.historyCallback('')}jQuery.isFirst=true}}}else{var current_hash=location.hash;if(current_hash!=jQuery.historyCurrentHash){jQuery.historyCurrentHash=current_hash;jQuery.historyCallback(current_hash.replace(/^#/,''))}}},historyLoad:function(hash){var newhash;if(jQuery.browser.safari){newhash=hash}else{newhash='#'+hash;location.hash=newhash}jQuery.historyCurrentHash=newhash;if(jQuery.browser.msie){var ihistory=$("#jQuery_history")[0];var iframe=ihistory.contentWindow.document;iframe.open();iframe.close();iframe.location.hash=newhash;jQuery.historyCallback(hash)}else if(jQuery.browser.safari){jQuery.dontCheck=true;this.historyAddHistory(hash);var fn=function(){jQuery.dontCheck=false};window.setTimeout(fn,200);jQuery.historyCallback(hash);location.hash=newhash}else{jQuery.historyCallback(hash)}}});
 
 
-$(document).ready(function(){
-	
-  $('.gallery_demo_unstyled').addClass('gallery_demo'); // adds new class name to maintain degradability
-	$('.nav').css('display','none'); // hides the nav initially
-	
-	$('ul.gallery_demo').galleria({
-		history   : false, // deactivates the history object for bookmarking, back-button etc.
-		clickNext : false, // helper for making the image clickable. Let's not have that in this example.
-		insert    : undefined, // the containing selector for our main image. 
-							   // If not found or undefined (like here), galleria will create a container 
-							   // before the ul with the class .galleria_container (see CSS)
-		onImage   : function() { $('.nav').css('display','block'); } // shows the nav when the image is showing
-	});
-});
+// $(document).ready(function(){
+//  
+//   $('.gallery_demo_unstyled').addClass('gallery_demo'); // adds new class name to maintain degradability
+//  $('.nav').css('display','none'); // hides the nav initially
+//  
+//  $('ul.gallery_demo').galleria({
+//    history   : false, // deactivates the history object for bookmarking, back-button etc.
+//    clickNext : false, // helper for making the image clickable. Let's not have that in this example.
+//    insert    : undefined, // the containing selector for our main image. 
+//                 // If not found or undefined (like here), galleria will create a container 
+//                 // before the ul with the class .galleria_container (see CSS)
+//    onImage   : function() { $('.nav').css('display','block'); } // shows the nav when the image is showing
+//  });
+// });
