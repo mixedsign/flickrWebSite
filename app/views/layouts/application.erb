@@ -9,62 +9,60 @@
   <link href="stylesheets/application.css" rel="stylesheet" type="text/css" media="screen">
   <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="screen">
   <script type="text/javascript" src="javascripts/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.galleria.js"></script>
   <script type="text/javascript" src="javascripts/jquery.expand.js"></script>
 </head>
   <body>
     <div id="main-nav">
     </div>
     <div class="demo">
-      <p class="nav"><a href="#" onclick="$.galleria.prev(); return false;">previous</a> | <a href="#" onclick="$.galleria.next(); return false;">next</a></p>
-      
-      <div id="images"></div>
       <%= yield %>
-      <!-- <ul class="gallery_demo_unstyled">
-           <li><img src="http://farm4.static.flickr.com/3016/3093550206_0616155893_o.jpg" alt="Flowing Rock" title="Flowing Rock Caption"></li>
-          <li><img src="http://farm4.static.flickr.com/3285/3093550676_00829f98c5_o.jpg" alt="Stones" title="Stones - from Aple images"></li>
-          <li><img src="http://farm4.static.flickr.com/3015/3092709161_6f0e876e90_o.jpg" alt="Grass Blades" title="Apple nature desktop images"></li>
-          <li><img class="noscale" src="images/ladybug.jpg" alt="Ladybug" title="Ut rutrum, lectus eu pulvinar elementum, lacus urna vestibulum ipsum"></li>
-          <li><img src="http://farm4.static.flickr.com/3143/3093550560_3d56967dc1_o.jpg" alt="Lightning" title="Black &amp; White"></li>
-          <li><img src="images/lotus.jpg" alt="Lotus" title="Fusce quam mi, sagittis nec, adipiscing at, sodales quis"></li>
-          <li><img src="images/mojave.jpg" alt="Mojave" title="Suspendisse volutpat posuere dui. Suspendisse sit amet lorem et risus faucibus pellentesque."></li>
-          <li><img src="images/pier.jpg" alt="Pier" title="Proin erat nisi"></li>
-          <li><img src="images/sea-mist.jpg" alt="Sea Mist" title="Caption text from title"></li>
-      </ul> -->
-    </div>
-    <div id="foo">
-      </div>
+      <div id="gallery-images"></div>
+      <div id="gallery-image-main"></div>
+      
     <div style="display: none">
       <ul id="navigation-template">
-        <li><a class="nav-link"><span class="title">title</span> - (#<span class="photoCount"></span>)</a></li>
+        <li><a href="#" class="nav-link"><span class="title">title</span> - (#<span class="photoCount"></span>)</a></li>
       </ul>
 
-      <ul id="galary-images">
-        <li><img class="gallary-image" alt="Flowing Rock"></li>
-      </ul>        
+      <ul id="gallery-images-template" class="galleria gallery_demo">
+        <li><img class="gallery-image" /></li>
+      </ul>    
+          
+      <div id="gallery-image-main-template">
+        <h2><span class="title" /></h2>
+        <div class="description"></div>
+        <img class="image-main"/>
+      </div>
+      
     </div>
     
     <script type="text/javascript">
-      function createGallary(element) {
-        element.addClass('gallery_demo'); // adds new class name to maintain degradability
-        $('.nav').css('display','none'); // hides the nav initially
+      var Gallery = {
+        imageClicked: function() {
+          getFlickrJSON("flickr.photos.getInfo&photo_id=" + $(this).attr("data-photoid"), Gallery.showImage)  
+        },
         
-         element.galleria({
-           history   : false, // deactivates the history object for bookmarking, back-button etc.
-           clickNext : false, // helper for making the image clickable. Let's not have that in this example.
-           insert    : undefined, // the containing selector for our main image. 
-                        // If not found or undefined (like here), galleria will create a container 
-                        // before the ul with the class .galleria_container (see CSS)
-           onImage   : function() { $('.nav').css('display','block'); } // shows the nav when the image is showing
-         });
-      }
-      
+        showImage: function(data) {
+          var element = data.photo
+          var photo = {"title": element.title._content, "description": element.description._content, "image-main": {"@src": flickrImageSrcLg(element), "@title": element.title, "@data-photoid": element.id}};
+          console.log(photo)
+          $('#gallery-image-main').html($('#gallery-image-main-template').expand(photo))
+        }, 
+        
+        initialize: function(setid) {
+          getFlickrJSON("flickr.photosets.getPhotos&photoset_id=" + setid, createImages)
+        }
+      };
+
       function showNav() {
         $('.nav').css('display','block');
       }
       
-      function flickrImageSrc(photo) {
+      function flickrImageSrcLg(photo) {
         return "http://farm" + photo.farm + ".static.flickr.com/" + photo.server +"/" + photo.id + "_" + photo.secret + ".jpg";
+      }
+      function flickrImageSrc(photo) {
+        return "http://farm" + photo.farm + ".static.flickr.com/" + photo.server +"/" + photo.id + "_" + photo.secret + "_s.jpg";
       }
 
       function flickrNavClicked() {
@@ -73,28 +71,29 @@
       
       function createImages(data) {
         var images = $.map(data.photoset.photo, function(element, index) {
-          return {"gallary-image": {"@src": flickrImageSrc(element), "@title": element.title}};
+          return {"gallery-image": {"@src": flickrImageSrc(element), "@title": element.title, "@data-photoid": element.id}};
         });
 
-        $('#galary-images').expand(images).appendTo("#foo")
-        createGallary($($("#foo ul")))
+        $('#gallery-images').html($('#gallery-images-template').expand(images))
       }
       
       function createNavigation(data) {
         var navigation = $.map(data.photosets.photoset, function(element, index) {
           return {"nav-link": {"@data-setid": element.id, title: element.title._content, photoCount: element.photos}};
         })
-
+        
         $('#navigation-template').expand(navigation).appendTo("#main-nav")
+        Gallery.initialize($($(".nav-link")[0]).attr("data-setid"))
       }
       
       function getFlickrJSON(api_method, callback) {
-        var caylaUserId = "22691397@N06"
+        var caylasUserId = "22691397@N06"
+        var sarasUserId = "43503694@N00"
         $.getJSON("http://www.flickr.com/services/rest/?jsoncallback=?&format=json&api_key=928eb0a241e0efcbf637a628313cb06b&method="+ api_method, callback);        
       }
       
       getFlickrJSON("flickr.photosets.getList&user_id=22691397@N06", createNavigation)
-      
+      $(".gallery-image").live("click", Gallery.imageClicked);
       $(".nav-link").click(flickrNavClicked)
     </script>
   </body>
