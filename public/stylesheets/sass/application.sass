@@ -1,47 +1,39 @@
-* html .galleria li div span
-  width: 400px
+/ <ul class="galleria gallery_demo">
+/ <li>
+/ <img class="gallery-image" src="http://farm4.static.flickr.com/3143/3093550560_d927251029_s.jpg" title="sketchbook." data-photoid="3093550560"/>
+/ </li>
 
-.galleria
-  list-style: none
-  width: 200px
+.gallery_demo
+  width: 500px
 
   li
-    display: block
-    width: 80px
-    height: 80px
-    overflow: hidden
+    height: 75px
     float: left
-    margin: 0 10px 10px 0
-    
-    a
-      display: none
-    div
-      position: absolute
-      display: none
-      top: 0 
-      left: 180px
-      img
-        cursor: pointer
-      img.active
-        display: block
-      .caption
-        display: block
-        padding-top: .5em
-    img.thumb
-      cursor: pointer
-      top: auto
-      left: auto
-      display: block
-      width: auto
-      height: auto
-    
-  .active
-    div
-      display: block
-    
-
-h1
-  color: blue
+    padding: 2px
+    border: 1px solid #DDD
+    cursor: pointer
+    display: block
+    margin-bottom: 14px
+    margin-right: 14px
+    opacity: 0.5
   
-main-nav ul li
-  cursor: pointer
+  li:hover
+    opacity: 1.0
+
+.image-main
+  padding: 4px
+  border: 5px solid #DDD
+
+#image-main-info
+  float: right
+
+#main-nav
+  margin-bottom: 10px
+  padding: 5px
+  background-color: #DDD
+
+  a 
+    font-family: 'lucida grande',helvetica,sans-serif
+    font-size: 16px
+    float: left
+    padding-left: 10px

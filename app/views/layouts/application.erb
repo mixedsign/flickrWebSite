@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-  <title>Galleria Demo 2</title>
+  <title>Cayla Tinney</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta http-equiv="imagetoolbar" content="false">
   <meta name="description" content="">
@@ -15,13 +15,15 @@
     <div id="main-nav">
     </div>
     <div class="demo">
-      <%= yield %>
+      <% yield %>
       <div id="gallery-images"></div>
-      <div id="gallery-image-main"></div>
+      <div id="gallery-image-main">
+      </div>
+
       
     <div style="display: none">
       <ul id="navigation-template">
-        <li><a href="#" class="nav-link"><span class="title">title</span> - (#<span class="photoCount"></span>)</a></li>
+        <li><a href="#" class="nav-link"><span class="title">title</span></a></li>
       </ul>
 
       <ul id="gallery-images-template" class="galleria gallery_demo">
@@ -29,8 +31,10 @@
       </ul>    
           
       <div id="gallery-image-main-template">
-        <h2><span class="title" /></h2>
-        <div class="description"></div>
+        <div id="image-main-info">
+          <h2><span class="title" /></h2>
+          <div class="description"></div>
+        </div>
         <img class="image-main"/>
       </div>
       
@@ -44,7 +48,15 @@
         
         showImage: function(data) {
           var element = data.photo
-          var photo = {"title": element.title._content, "description": element.description._content, "image-main": {"@src": flickrImageSrcLg(element), "@title": element.title, "@data-photoid": element.id}};
+          var photo = { 
+            "title": element.title._content, 
+            "description": element.description._content, 
+            "tags": element.tags.tag,
+            "image-main": {
+              "@src": flickrImageSrcLg(element), 
+              "@title": element.title, 
+              "@data-photoid": element.id
+            }};
           console.log(photo)
           $('#gallery-image-main').html($('#gallery-image-main-template').expand(photo))
         }, 
