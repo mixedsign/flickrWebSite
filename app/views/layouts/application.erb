@@ -6,18 +6,28 @@
   <meta http-equiv="imagetoolbar" content="false">
   <meta name="description" content="">
   <meta name="keywords" content="">
-  <link href="stylesheets/application.css" rel="stylesheet" type="text/css" media="screen">
-  <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="stylesheets/compiled/print.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="stylesheets/compiled/screen.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="stylesheets/compiled/ie.css" rel="stylesheet" type="text/css" media="screen">
+  <!-- link href="stylesheets/complied/application.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="screen" -->
   <script type="text/javascript" src="javascripts/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/jquery.expand.js"></script>
 </head>
   <body>
-    <div id="main-nav">
+    <div id="container">
+    <div id="header">
+      <div id="main-nav">
+      </div>
     </div>
     <div class="demo">
       <% yield %>
+      <div id="sidebar">
       <div id="gallery-images"></div>
+      </div>
+      <div id="content">
       <div id="gallery-image-main">
+      </div>
       </div>
 
       
@@ -37,7 +47,6 @@
         </div>
         <img class="image-main"/>
       </div>
-      
     </div>
     
     <script type="text/javascript">
@@ -108,5 +117,6 @@
       $(".gallery-image").live("click", Gallery.imageClicked);
       $(".nav-link").click(flickrNavClicked)
     </script>
+    </div>
   </body>
 </html>

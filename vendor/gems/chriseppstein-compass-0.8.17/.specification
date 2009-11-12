@@ -1,5 +1,5 @@
 --- !ruby/object:Gem::Specification 
-name: compass
+name: chriseppstein-compass
 version: !ruby/object:Gem::Version 
   version: 0.8.17
 platform: ruby

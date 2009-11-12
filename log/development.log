@@ -3239,3 +3239,417 @@ Processing PagesController#homepage (for 127.0.0.1 at 2009-11-10 22:51:16) [GET]
 Rendering template within layouts/application
 Rendering pages/homepage
 Completed in 83ms (View: 77 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:22:40) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 62ms (View: 61 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:31:27) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 12ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:33:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:33:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:33:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:33:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/ie.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:34:00) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:34:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:34:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:34:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/ie.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:34:47) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 47ms (View: 46 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:34:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:34:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:34:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/ie.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:36:02) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/ie.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:36:30) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/ie.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:36:54) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/ie.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:36:56) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/ie.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:36:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:36:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/ie.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:37:00) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:37:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:37:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 21:37:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/complied/ie.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:37:55) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:39:07) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:39:51) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:40:16) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:40:28) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:40:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:41:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:41:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:42:09) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:42:10) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:42:13) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:42:15) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:43:36) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:43:39) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:44:04) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:44:19) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:45:57) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:46:23) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:47:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:47:45) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:48:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-11-11 21:49:07) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
