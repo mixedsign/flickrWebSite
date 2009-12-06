@@ -8,18 +8,19 @@
   <meta name="keywords" content="">
 
   <link href="stylesheets/compiled/screen.css" rel="stylesheet" type="text/css" media="screen">
-  <!-- link href="stylesheets/complied/application.css" rel="stylesheet" type="text/css" media="screen">
-  <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="screen" -->
+  <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="screen">
+  
   <script type="text/javascript" src="javascripts/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/jquery.expand.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.jcarousel.js"></script>
 </head>
-  <body class="bp showgrid">
+  <body class="bp">
     <div id="container">
       <div id="header">
         <h1><span style="color: #C1272D;">Cayla</span> <span style="color: #777">Tinney</span></h1>
       </div>
+      
       <div id="thumbnails"></div>
+      
       <div id="main-nav">
         <div id="contact-info">
           <%= mail_to("caylatinney@gmail.com", "caylatinney@gmail.com", :encode => "javascript") %>
@@ -27,6 +28,7 @@
           <strong>231.675.8523</strong>
         </div>
       </div>
+      
       <div class="demo">
         <%= yield %>
         <div id="content">
@@ -39,9 +41,9 @@
     <div style="display: none">
       <ul id="navigation-template"><li><a href="#" class="nav-link"><span class="title">title</span></a></li></ul>
 
-      <ul id="gallery-images-template" class="galleria jcarousel-skin-tango">
-        <li>
-          <img class="gallery-image" width="75" height="75" />
+      <ul id="gallery-images-template" class="gallery">
+        <li class="thumbnail">
+          <img class="gallery-image" />
         </li>
       </ul>    
 
