@@ -4,34 +4,59 @@
 @import partials/base.sass
 // Import all the default blueprint modules so that we can access their mixins.
 @import blueprint
-// Import the non-default scaffolding module.
-@import blueprint/modules/scaffolding.sass
 
 // To generate css equivalent to the blueprint css but with your configuration applied, uncomment:
 // +blueprint
 
 //Recommended Blueprint configuration with scoping and semantic layout:
 +blueprint-typography("body.bp")
-+blueprint-scaffolding("body.bp")
+
 body.bp
   +blueprint-utilities
   +blueprint-debug
   +blueprint-interaction
   // Remove the scaffolding when you're ready to start doing visual design.
   // Or leave it in if you're happy with how blueprint looks out-of-the-box
-form.bp
-  +blueprint-form
-
-// Page layout can be done using mixins applied to your semantic classes and IDs:
 
 #container
   +container
-#header, #footer
-  +column(!blueprint_grid_columns)
-#sidebar
-  // One third of the grid columns, rounding down. With 24 cols, this is 8.
-  !sidebar_columns = floor(!blueprint_grid_columns / 3)
-  +column(!sidebar_columns)
+
+#header
+  +prepend-top(55px)
+#thumbnails
+  +prepend-top(20px)
+  +append-bottom(20px)
+  
+#header, 
+#main-nav
+  text-align: left
+  +column(4)
+#footer
+  +column(24, true)
+#thumbnails
+  +column(20, true)
+  overflow: hidden
+  height: 100px
+
+#image-main-template, 
+#main-image,
+#main-image-info
+  text-align: left
+  +column(20, true)
+
+#main-image-info
+  h2
+    color: #777
+  
+    .header
+      font-face: Gothic
+      size: 14pt
+      text-transform: uppercase
+      letter-spacing: -1px
+    .info
+      font-face: Times
+      font-style: italic
+    
 #content
   // Two thirds of the grid columns, rounding up.
   // With 24 cols, this is 16.
@@ -39,36 +64,54 @@ form.bp
   // true means it's the last column in the row
   +column(!content_columns, true)
 
+#main-image img
+  border: 3px solid #777
+  padding: 3px
+
+  
 .gallery_demo
-  li
+  img
     height: 75px
-    float: left
-    padding: 2px
-    border: 1px solid #DDD
+    border: 3px solid #777
+    padding: 3px
     cursor: pointer
-    display: block
     margin-bottom: 14px
     margin-right: 14px
     opacity: 0.4
 
-  li:hover
+    &.selected
+      border-color: #C1272D
+      opacity: 0.5
+
+  img:hover
     opacity: 1.0
-#gallery-image-main
-  position: fixed
 
-.image-main
-  padding: 4px
-  border: 5px solid #DDD
-
-#image-main-info
-  float: right
-
+#header h1
+  letter-spacing: 0px 
+  text-transform: uppercase
+  font-family: League Gothic
+  font-size: 40px
+  
 #main-nav
-  margin-bottom: 10px
-  padding: 5px
+  ul
+    margin-bottom: 0px
+    
+  li 
+    list-style-type: none
+    
+  a
+    color: #777
+    font: 14pt Times
+    font-style: italic
+    text-decoration: none
 
-  a 
-    font-family: 'lucida grande',helvetica,sans-serif
-    font-size: 16px
-    float: left
-    padding-left: 10px
+    &.selected 
+      color: #C1272D
+
+    &:hover
+      text-decoration: underline
+#footer
+  color: #777
+  strong
+    span
+      color: #C1272D

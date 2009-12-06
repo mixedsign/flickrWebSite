@@ -238,44 +238,6 @@ body.bp {
   body.bp .loud {
     color: #111111; }
 
-/* line 36, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_scaffolding.sass */
-body.bp .box {
-  padding: 1.5em;
-  margin-bottom: 1.5em;
-  background: #E5ECF9; }
-/* line 39, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_scaffolding.sass */
-body.bp div.border {
-  padding-right: 4px;
-  margin-right: 5px;
-  border-right: 1px solid #eeeeee; }
-/* line 42, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_scaffolding.sass */
-body.bp div.colborder {
-  padding-right: 24px;
-  margin-right: 25px;
-  border-right: 1px solid #eeeeee; }
-/* line 44, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_scaffolding.sass */
-body.bp hr {
-  background: #dddddd;
-  color: #dddddd;
-  clear: both;
-  float: none;
-  width: 100%;
-  height: .1em;
-  margin: 0 0 1.45em;
-  border: none; }
-/* line 46, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_scaffolding.sass */
-body.bp hr.space {
-  background: #dddddd;
-  color: #dddddd;
-  clear: both;
-  float: none;
-  width: 100%;
-  height: .1em;
-  margin: 0 0 1.45em;
-  border: none;
-  background: #fff;
-  color: #fff; }
-
 /* line 9, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_utilities.sass */
 body.bp .clear {
   clear: both; }
@@ -366,59 +328,7 @@ body.bp .removed {
   background: #990000;
   color: white; }
 
-/* line 15, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp label {
-  font-weight: bold; }
-/* line 17, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp fieldset {
-  padding: 1.4em;
-  margin: 0 0 1.5em 0; }
-/* line 20, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp legend {
-  font-weight: bold;
-  font-size: 1.2em; }
-/* line 24, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp input.text, form.bp input.title, form.bp input[type=text] {
-  margin: 0.5em 0;
-  background-color: #fff;
-  padding: 5px; }
-/* line 28, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp input.title {
-  font-size: 1.5em; }
-/* line 30, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp input[type=checkbox], form.bp input.checkbox,
-form.bp input[type=radio], form.bp input.radio {
-  position: relative;
-  top: 0.25em; }
-/* line 34, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp textarea {
-  margin: 0.5em 0;
-  padding: 5px; }
-/* line 37, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp select {
-  margin: 0.5em 0; }
-/* line 48, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp fieldset {
-  border: 1px solid #cccccc; }
-/* line 50, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp input.text, form.bp input.title,
-form.bp textarea,
-form.bp select {
-  border: 1px solid #bbbbbb; }
-  /* line 54, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-  form.bp input.text:focus, form.bp input.title:focus,
-  form.bp textarea:focus,
-  form.bp select:focus {
-    border: 1px solid #666666; }
-/* line 41, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp input.text, form.bp input.title {
-  width: 300px; }
-/* line 43, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_form.sass */
-form.bp textarea {
-  width: 390px;
-  height: 250px; }
-
-/* line 27, ../sass/screen.sass */
+/* line 21, ../sass/screen.sass */
 #container {
   width: 950px;
   margin: 0 auto;
@@ -428,27 +338,80 @@ form.bp textarea {
   #container {
     display: block; }
 
-/* line 29, ../sass/screen.sass */
-#header, #footer {
+/* line 24, ../sass/screen.sass */
+#header {
+  margin-top: 55px; }
+
+/* line 26, ../sass/screen.sass */
+#thumbnails {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/* line 30, ../sass/screen.sass */
+#header,
+#main-nav {
+  text-align: left;
   display: inline;
   float: left;
   margin-right: 10px;
+  width: 150px; }
+  /* line 101, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_grid.sass */
+  * html #header,
+  * html #main-nav {
+    overflow-x: hidden; }
+
+/* line 34, ../sass/screen.sass */
+#footer {
+  display: inline;
+  float: left;
+  margin-right: 0;
   width: 950px; }
   /* line 101, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_grid.sass */
-  * html #header, * html #footer {
+  * html #footer {
     overflow-x: hidden; }
 
-/* line 31, ../sass/screen.sass */
-#sidebar {
+/* line 36, ../sass/screen.sass */
+#thumbnails {
   display: inline;
   float: left;
-  margin-right: 10px;
-  width: 310px; }
+  margin-right: 0;
+  width: 790px;
+  overflow: hidden;
+  height: 100px; }
   /* line 101, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_grid.sass */
-  * html #sidebar {
+  * html #thumbnails {
     overflow-x: hidden; }
 
-/* line 35, ../sass/screen.sass */
+/* line 41, ../sass/screen.sass */
+#image-main-template,
+#main-image,
+#main-image-info {
+  text-align: left;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 790px; }
+  /* line 101, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_grid.sass */
+  * html #image-main-template,
+  * html #main-image,
+  * html #main-image-info {
+    overflow-x: hidden; }
+
+/* line 48, ../sass/screen.sass */
+#main-image-info h2 {
+  color: #777; }
+  /* line 51, ../sass/screen.sass */
+  #main-image-info h2 .header {
+    font-face: Gothic;
+    size: 14pt;
+    text-transform: uppercase;
+    letter-spacing: -1px; }
+  /* line 56, ../sass/screen.sass */
+  #main-image-info h2 .info {
+    font-face: Times;
+    font-style: italic; }
+
+/* line 60, ../sass/screen.sass */
 #content {
   display: inline;
   float: left;
@@ -458,41 +421,57 @@ form.bp textarea {
   * html #content {
     overflow-x: hidden; }
 
-/* line 43, ../sass/screen.sass */
-.gallery_demo li {
+/* line 67, ../sass/screen.sass */
+#main-image img {
+  border: 3px solid #777;
+  padding: 3px; }
+
+/* line 73, ../sass/screen.sass */
+.gallery_demo img {
   height: 75px;
-  float: left;
-  padding: 2px;
-  border: 1px solid #DDD;
+  border: 3px solid #777;
+  padding: 3px;
   cursor: pointer;
-  display: block;
   margin-bottom: 14px;
   margin-right: 14px;
   opacity: 0.4; }
-/* line 54, ../sass/screen.sass */
-.gallery_demo li:hover {
+  /* line 82, ../sass/screen.sass */
+  .gallery_demo img.selected {
+    border-color: #C1272D;
+    opacity: 0.5; }
+/* line 86, ../sass/screen.sass */
+.gallery_demo img:hover {
   opacity: 1.0; }
 
-/* line 56, ../sass/screen.sass */
-#gallery-image-main {
-  position: fixed; }
+/* line 89, ../sass/screen.sass */
+#header h1 {
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  font-family: League Gothic;
+  font-size: 40px; }
 
-/* line 59, ../sass/screen.sass */
-.image-main {
-  padding: 4px;
-  border: 5px solid #DDD; }
+/* line 96, ../sass/screen.sass */
+#main-nav ul {
+  margin-bottom: 0px; }
+/* line 99, ../sass/screen.sass */
+#main-nav li {
+  list-style-type: none; }
+/* line 102, ../sass/screen.sass */
+#main-nav a {
+  color: #777;
+  font: 14pt Times;
+  font-style: italic;
+  text-decoration: none; }
+  /* line 108, ../sass/screen.sass */
+  #main-nav a.selected {
+    color: #C1272D; }
+  /* line 111, ../sass/screen.sass */
+  #main-nav a:hover {
+    text-decoration: underline; }
 
-/* line 63, ../sass/screen.sass */
-#image-main-info {
-  float: right; }
-
-/* line 66, ../sass/screen.sass */
-#main-nav {
-  margin-bottom: 10px;
-  padding: 5px; }
-  /* line 70, ../sass/screen.sass */
-  #main-nav a {
-    font-family: 'lucida grande',helvetica,sans-serif;
-    font-size: 16px;
-    float: left;
-    padding-left: 10px; }
+/* line 113, ../sass/screen.sass */
+#footer {
+  color: #777; }
+  /* line 116, ../sass/screen.sass */
+  #footer strong span {
+    color: #C1272D; }
