@@ -1,3 +1,4 @@
+
 // This import applies a global reset to any page that imports this stylesheet.
 @import blueprint/reset.sass
 // To configure blueprint, edit the partials/base.sass file.
@@ -5,18 +6,6 @@
 // Import all the default blueprint modules so that we can access their mixins.
 @import blueprint
 
-// To generate css equivalent to the blueprint css but with your configuration applied, uncomment:
-// +blueprint
-
-//Recommended Blueprint configuration with scoping and semantic layout:
-+blueprint-typography("body.bp")
-
-body.bp
-  +blueprint-utilities
-  +blueprint-debug
-  +blueprint-interaction
-  // Remove the scaffolding when you're ready to start doing visual design.
-  // Or leave it in if you're happy with how blueprint looks out-of-the-box
 
 #container
   +container
@@ -68,24 +57,6 @@ body.bp
   border: 3px solid #777
   padding: 3px
 
-  
-.gallery_demo
-  img
-    height: 75px
-    border: 3px solid #777
-    padding: 3px
-    cursor: pointer
-    margin-bottom: 14px
-    margin-right: 14px
-    opacity: 0.4
-
-    &.selected
-      border-color: #C1272D
-      opacity: 0.5
-
-  img:hover
-    opacity: 1.0
-
 #header h1
   letter-spacing: 0px 
   text-transform: uppercase
@@ -110,8 +81,15 @@ body.bp
 
     &:hover
       text-decoration: underline
-#footer
+
+#main-nav #contact-info
+  margin-top: 30px
   color: #777
+
+  a,
   strong
-    span
-      color: #C1272D
+    font-size: 10pt
+  strong
+    color: #C1272D
+    
+@import carousel

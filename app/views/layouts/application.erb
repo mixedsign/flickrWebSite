@@ -6,57 +6,55 @@
   <meta http-equiv="imagetoolbar" content="false">
   <meta name="description" content="">
   <meta name="keywords" content="">
-  <link href="stylesheets/compiled/print.css" rel="stylesheet" type="text/css" media="screen">
+
   <link href="stylesheets/compiled/screen.css" rel="stylesheet" type="text/css" media="screen">
-  <link href="stylesheets/compiled/ie.css" rel="stylesheet" type="text/css" media="screen">
   <!-- link href="stylesheets/complied/application.css" rel="stylesheet" type="text/css" media="screen">
   <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="screen" -->
   <script type="text/javascript" src="javascripts/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/jquery.expand.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.jcarousel.js"></script>
 </head>
   <body class="bp showgrid">
     <div id="container">
-    <div id="header">
-      <h1><span style="color: #C1272D;">Cayla</span> <span style="color: #777">Tinney</span></h1>
-    </div>
-    
-    <div class="jcarousel-clip">
-    <div id="thumbnails">
-    </div>
-    </div>
-
-    <div id="main-nav"></div>
-    
-    
-    <div class="demo">
-      <%= yield %>
-      <div id="content">
-        <div id="gallery-image-main">
+      <div id="header">
+        <h1><span style="color: #C1272D;">Cayla</span> <span style="color: #777">Tinney</span></h1>
+      </div>
+      <div id="thumbnails"></div>
+      <div id="main-nav">
+        <div id="contact-info">
+          <%= mail_to("caylatinney@gmail.com", "caylatinney@gmail.com", :encode => "javascript") %>
+          <br />
+          <strong>231.675.8523</strong>
+        </div>
+      </div>
+      <div class="demo">
+        <%= yield %>
+        <div id="content">
+          <div id="gallery-image-main"></div>
         </div>
       </div>
     </div>
-    <div id="footer">
-      <strong>Contact Info</strong> - <%= mail_to("caylatinney@gmail.com", "caylatinney@gmail.com", :encode => "javascript") %> : 231.675.8523
-    </div>
+    
 <!-- Start Template System -->
     <div style="display: none">
       <ul id="navigation-template"><li><a href="#" class="nav-link"><span class="title">title</span></a></li></ul>
-      <div id="gallery-images-template" class="galleria gallery_demo">
-        <span>
+
+      <ul id="gallery-images-template" class="galleria jcarousel-skin-tango">
+        <li>
           <img class="gallery-image" width="75" height="75" />
-        </span>
-      </div>    
+        </li>
+      </ul>    
 
       <div id="image-main-template">
         <div id="main-image">
           <img class="main-image"/>
         </div>
         <div id="main-image-info">
-          <h2><span class="header">TITLE - </span><span class="info title" /></h2>
           <div class="description"></div>
         </div>
       </div>
     </div>
+
     <script type="text/javascript" src="javascripts/flickr.js"></script>
   </body>
 </html>

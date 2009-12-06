@@ -5289,3 +5289,1141 @@ Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 00:35:47) [GET]
 Rendering template within layouts/application
 Rendering pages/homepage
 Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:01:51) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:15:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 22ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:17:38) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 10ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:17:40) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:18:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:18:59) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:19:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:19:16) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:19:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:21:24) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:21:26) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:23:17) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 22ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:23:20) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:23:51) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:23:53) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:24:00) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:24:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:30:30) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 13ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:30:47) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:34:38) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 14ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:34:40) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:35:03) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:37:00) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:37:19) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:37:26) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:37:48) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:38:05) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:38:12) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:38:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 12:38:43) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:17:10) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 34ms (View: 32 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:17:38) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:17:40) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:18:03) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:18:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:18:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:18:25) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:18:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:18:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:18:41) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:18:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:18:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:19:10) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:19:23) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:19:49) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:19:57) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:19:59) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:20:06) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:20:16) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 53ms (View: 52 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:20:37) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:20:43) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:20:53) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:20:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:20:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:21:03) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:21:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:21:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:21:52) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 13ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:21:52) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:21:52) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:21:53) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:21:53) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:21:53) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:21:54) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:21:54) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:21:54) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:22:43) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:22:43) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:22:43) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:22:57) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:22:58) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:22:58) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:23:32) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:23:33) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:23:33) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:23:33) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:23:34) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:23:34) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:23:34) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:23:35) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:23:35) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:25:11) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 11ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:25:11) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:25:11) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:25:12) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:25:12) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:25:12) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:25:35) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:25:35) [GET]
+
+ActionController::RoutingError (No route matches "/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:25:35) [GET]
+
+ActionController::RoutingError (No route matches "/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:26:54) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:26:56) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:27:09) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:27:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:27:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:27:17) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:27:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:27:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:27:34) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:27:47) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 55ms (View: 53 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/prev-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-06 15:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/compiled/images/next-horizontal.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:28:32) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:32:11) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:32:25) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:32:48) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:32:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:33:20) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:33:58) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:34:39) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:36:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 8ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:36:14) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:38:26) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 27ms (View: 26 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:40:56) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:41:25) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:43:40) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:43:52) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:44:19) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:47:09) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 12ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:48:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:48:45) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:49:24) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:49:28) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:51:02) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:52:39) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:54:11) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:54:25) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:57:00) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 22ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:57:05) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:57:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 15:57:57) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:00:06) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 23ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:01:23) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 15ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:01:40) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:01:42) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:02:17) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 13ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:02:32) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:02:44) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:02:45) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:02:45) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:02:46) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:02:48) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:03:00) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:03:32) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:06:19) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 42ms (View: 41 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:09:19) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:09:34) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:10:01) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:10:32) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:10:51) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:16:35) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:17:39) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:17:57) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:18:07) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:18:22) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:19:11) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:19:21) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 55ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:19:31) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:19:37) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:19:38) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:19:50) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:20:03) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:20:05) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:20:39) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:21:39) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:23:37) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:23:50) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:24:11) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:24:26) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:24:52) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:29:29) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:29:52) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:31:10) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:32:17) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:32:36) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 52ms (View: 51 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:33:10) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing PagesController#homepage (for 127.0.0.1 at 2009-12-06 16:33:31) [GET]
+Rendering template within layouts/application
+Rendering pages/homepage
+Completed in 2ms (View: 1 | 200 OK [http://localhost/]

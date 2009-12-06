@@ -22,7 +22,8 @@ var Gallery = {
         "@data-photoid": element.id
       }};
       
-    $('#gallery-image-main').html($('#image-main-template').expand(photo))
+    $('#gallery-image-main').html($('#image-main-template').expand(photo));
+    
   }, 
   
   initialize: function(setid) {
@@ -52,8 +53,11 @@ function createImages(data) {
     return {"gallery-image": {"@src": flickrImageSrc(element), "@title": element.title, "@data-photoid": element.id}};
   });
   
-  $('#thumbnails').html($('#gallery-images-template').expand(images))
+  $('#thumbnails').html(null)
+  $('#gallery-images-template').expand(images).attr('id', 'carousel').appendTo("#thumbnails")
+  
   Gallery.showThumbnail($($('.gallery-image')[0]))
+  $('#carousel').jcarousel();
 }
 
 function createNavigation(data) {
@@ -61,7 +65,7 @@ function createNavigation(data) {
     return {"nav-link": {"@data-setid": element.id, title: element.title._content, photoCount: element.photos}};
   })
   
-  $('#navigation-template').expand(navigation).appendTo("#main-nav")
+  $('#navigation-template').expand(navigation).prependTo("#main-nav")
 
   $($(".nav-link")[0]).addClass("selected")
   Gallery.initialize($($(".nav-link")[0]).attr("data-setid"))
