@@ -1,4 +1,3 @@
 tmp/
 .DS_Store
-public/stylesheets/compiled/*
 log/*
