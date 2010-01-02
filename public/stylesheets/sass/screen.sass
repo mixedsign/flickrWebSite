@@ -12,7 +12,8 @@
 
 #header
   +prepend-top(55px)
-#thumbnails
+  
+#thumbnail-navigation
   +prepend-top(20px)
   +append-bottom(20px)
   
@@ -24,11 +25,30 @@
 #footer
   +column(24, true)
 
-#thumbnails
-  +column(20, true)
+#thumbnail-previous
+  +prepend-top(20px)
+  +column(1)
+  
+#thumbnail-next
+  +column(1, true)
+  +prepend-top(20px)
+  
+#thumbnail-previous,
+#thumbnail-next
+  font-size: 20px
+  text-decoration: none
+  
+#thumbnail-navigation
+  +column(18)
+#thumbnail-container
+  position: realitive
   overflow: hidden
   height: 100px
 
+#thumbnails
+  position: relative
+  left: -80px
+  
   .thumbnail
     float: left
     

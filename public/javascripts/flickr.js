@@ -6,14 +6,14 @@ var Gallery = {
   showThumbnail: function(image) {
     $("#thumbnails img").removeClass("selected")
     $(image).addClass("selected")
-    getFlickrJSON("flickr.photos.getInfo&photo_id=" + $(image).attr("data-photoid"), Gallery.showImage)  
+    getFlickrJSON("flickr.photos.getInfo&photo_id=" + $(image).attr("data-photoid"), Gallery.showImage);
   },
   
   showImage: function(data) {
     var element = data.photo
 
     var photo = { 
-      "title": element.title._content, 
+      "title": element.title._content,
       "description": element.description._content, 
       "tags": element.tags.tag,
       "main-image": {
@@ -49,16 +49,14 @@ function flickrNavClicked() {
 }
 
 function createImages(data) {
-  var images = $.map(data.photoset.photo, function(element, index) {
+  theImages = $.map(data.photoset.photo, function(element, index) {
     return {"gallery-image": {"@src": flickrImageSrc(element), "@title": element.title, "@data-photoid": element.id}};
   });
   
-  $('#thumbnails').html(null)
-  $('#gallery-images-template').expand(images).attr('id', 'carousel').appendTo("#thumbnails")
-  
-  Gallery.showThumbnail($($('.gallery-image')[0]))
-  $('#carousel').jcarousel();
+  theImagesPage = 0
+  setThumbnails();
 }
+
 
 function createNavigation(data) {
   var navigation = $.map(data.photosets.photoset, function(element, index) {
@@ -76,6 +74,50 @@ function getFlickrJSON(api_method, callback) {
   $.getJSON("http://www.flickr.com/services/rest/?jsoncallback=?&format=json&api_key=928eb0a241e0efcbf637a628313cb06b&method="+ api_method, callback);        
 }
 
+function nextThumbnails() {
+  theImagesPage = theImagesPage + 1;
+  setThumbnails();
+}
+
+function setThumbnails() {
+  var start = theImagesPage * 5
+  var end = start + 4
+  
+  if(theImages.length <= end) {
+    $("#thumbnail-next").hide();
+  } else {
+    $("#thumbnail-next").show();
+  }
+  
+  if(theImagesPage == 0) {
+    $("#thumbnail-previous").hide();
+  } else {
+    $("#thumbnail-previous").show();
+  }
+  
+  
+  images = theImages.slice(start,end);
+  
+  $('#thumbnails').html(null)
+  $('#gallery-images-template').expand(images).attr('id', 'carousel').appendTo("#thumbnails")
+  Gallery.showThumbnail($($('.gallery-image')[0]))  
+}
+
+function hideThumbnails() {
+  
+}
+
+function previousThumbnails() {
+  theImagesPage = theImagesPage - 1;
+  setThumbnails();
+}
+
+
 getFlickrJSON("flickr.photosets.getList&user_id=22691397@N06", createNavigation)
 $(".gallery-image").live("click", Gallery.imageClicked);
+
 $(".nav-link").click(flickrNavClicked)
+
+$("#thumbnail-next").click(nextThumbnails);
+$("#thumbnail-previous").click(previousThumbnails);
+
