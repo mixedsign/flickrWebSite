@@ -86,7 +86,7 @@ function previousThumbnails() {
 }
 
 function setThumbnails() {
-  var start = theImagesPage * 5
+  var start = theImagesPage * 4
   var end = start + 4
   
   if(theImages.length <= end) {
