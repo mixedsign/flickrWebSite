@@ -18,19 +18,21 @@
       <div id="header">
         <h1>Cayla <strong>Tinney</strong></h1>
       </div>
-      <div id="thumbnail-previous">
+      
+      <div id="thumbnail-previous-container">
         <a href="#" id="thumbnail-previous"><</a>
       </div>
-      
+    
       <div id="thumbnail-navigation">
         <div id="thumbnail-container">
           <div id="thumbnails"></div>
-        </div>
+        </div>        
       </div>
       
-      <div id="thumbnail-next">
+      <div id="thumbnail-next-container">
         <a href="#" id="thumbnail-next">></a>
       </div>
+      
       <div style="clear: both"></div>
       
       <div id="main-nav">
@@ -40,12 +42,11 @@
           <strong>231.675.8523</strong>
         </div>
       </div>
+            
+      <%= yield %>
       
-      <div class="demo">
-        <%= yield %>
-        <div id="content">
-          <div id="gallery-image-main"></div>
-        </div>
+      <div id="content">
+        <div id="gallery-image-main"></div>
       </div>
     </div>
     

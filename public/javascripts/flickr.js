@@ -55,6 +55,7 @@ function createImages(data) {
   
   theImagesPage = 0
   setThumbnails();
+  Gallery.showThumbnail($($('.gallery-image')[0]))  
 }
 
 
@@ -79,20 +80,25 @@ function nextThumbnails() {
   setThumbnails();
 }
 
+function previousThumbnails() {
+  theImagesPage = theImagesPage - 1;
+  setThumbnails();
+}
+
 function setThumbnails() {
   var start = theImagesPage * 5
   var end = start + 4
   
   if(theImages.length <= end) {
-    $("#thumbnail-next").hide();
+    $("#thumbnail-next").addClass("disabled");
   } else {
-    $("#thumbnail-next").show();
+    $("#thumbnail-next").removeClass("disabled");
   }
   
   if(theImagesPage == 0) {
-    $("#thumbnail-previous").hide();
+    $("#thumbnail-previous").addClass("disabled");
   } else {
-    $("#thumbnail-previous").show();
+    $("#thumbnail-previous").removeClass("disabled");
   }
   
   
@@ -100,18 +106,7 @@ function setThumbnails() {
   
   $('#thumbnails').html(null)
   $('#gallery-images-template').expand(images).attr('id', 'carousel').appendTo("#thumbnails")
-  Gallery.showThumbnail($($('.gallery-image')[0]))  
 }
-
-function hideThumbnails() {
-  
-}
-
-function previousThumbnails() {
-  theImagesPage = theImagesPage - 1;
-  setThumbnails();
-}
-
 
 getFlickrJSON("flickr.photosets.getList&user_id=22691397@N06", createNavigation)
 $(".gallery-image").live("click", Gallery.imageClicked);
