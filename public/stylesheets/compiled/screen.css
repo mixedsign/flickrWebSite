@@ -202,30 +202,38 @@ a img {
     overflow-x: hidden; }
 
 /* line 85, ../sass/screen.sass */
-#main-image {
+#main-image,
+#main-image-info,
+.tags {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 510px; }
+  width: 630px; }
   /* line 101, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_grid.sass */
-  * html #main-image {
+  * html #main-image,
+  * html #main-image-info,
+  * html .tags {
     overflow-x: hidden; }
 
-/* line 89, ../sass/screen.sass */
+/* line 90, ../sass/screen.sass */
+.tags {
+  color: #4D4D4D; }
+
+/* line 94, ../sass/screen.sass */
 #main-image-info h2 {
   color: #777; }
-  /* line 92, ../sass/screen.sass */
+  /* line 97, ../sass/screen.sass */
   #main-image-info h2 .header {
     font-face: Gothic, Hevetica;
     size: 14pt;
     text-transform: uppercase;
     letter-spacing: -1px; }
-  /* line 97, ../sass/screen.sass */
+  /* line 102, ../sass/screen.sass */
   #main-image-info h2 .info {
     font-face: Times;
     font-style: italic; }
 
-/* line 101, ../sass/screen.sass */
+/* line 106, ../sass/screen.sass */
 #content {
   display: inline;
   float: left;
@@ -235,46 +243,39 @@ a img {
   * html #content {
     overflow-x: hidden; }
 
-/* line 108, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 #main-image img {
   border: 3px solid #777;
   padding: 3px; }
 
-/* line 112, ../sass/screen.sass */
-#header h1 {
-  letter-spacing: 0px;
-  text-transform: uppercase;
-  font-family: League Gothic, Gothic, Hevetica;
-  font-size: 40px; }
-
-/* line 119, ../sass/screen.sass */
+/* line 118, ../sass/screen.sass */
 #main-nav ul {
   margin-bottom: 0px; }
-/* line 122, ../sass/screen.sass */
+/* line 121, ../sass/screen.sass */
 #main-nav li {
   list-style-type: none;
   text-align: right; }
-/* line 126, ../sass/screen.sass */
+/* line 125, ../sass/screen.sass */
 #main-nav a {
   color: #777;
   font: 14pt Times;
   font-style: italic;
   text-decoration: none; }
-  /* line 132, ../sass/screen.sass */
+  /* line 131, ../sass/screen.sass */
   #main-nav a.selected {
     color: #C1272D; }
-  /* line 135, ../sass/screen.sass */
+  /* line 134, ../sass/screen.sass */
   #main-nav a:hover {
     text-decoration: underline; }
 
-/* line 138, ../sass/screen.sass */
+/* line 137, ../sass/screen.sass */
 #main-nav #contact-info {
   margin-top: 30px;
   color: #777; }
-  /* line 142, ../sass/screen.sass */
+  /* line 141, ../sass/screen.sass */
   #main-nav #contact-info a,
   #main-nav #contact-info strong {
     font-size: 10pt; }
-  /* line 145, ../sass/screen.sass */
+  /* line 144, ../sass/screen.sass */
   #main-nav #contact-info strong {
     color: #C1272D; }

@@ -15,7 +15,7 @@ var Gallery = {
     var photo = { 
       "title": element.title._content,
       "description": element.description._content, 
-      "tags": element.tags.tag,
+      "tags": $.map(element.tags.tag, function(item, index) { return {innerHTML: item.raw}; }),
       "main-image": {
         "@src": flickrImageSrcLg(element), 
         "@title": element.title._content, 
