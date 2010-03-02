@@ -190,30 +190,14 @@ a img {
 #main-nav {
   margin-top: 20px; }
 
-/* line 81, ../sass/screen.sass */
-#main-image-info {
-  text-align: left;
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 110px; }
-  /* line 101, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_grid.sass */
-  * html #main-image-info {
-    overflow-x: hidden; }
-
-/* line 85, ../sass/screen.sass */
+/* line 82, ../sass/screen.sass */
 #main-image,
-#main-image-info,
-.tags {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 630px; }
-  /* line 101, ../../../vendor/gems/chriseppstein-compass-0.8.17/frameworks/blueprint/stylesheets/blueprint/modules/_grid.sass */
-  * html #main-image,
-  * html #main-image-info,
-  * html .tags {
-    overflow-x: hidden; }
+.tags,
+#main-image-info {
+  margin-top: 20px;
+  padding-left: 10px;
+  text-align: left;
+  float: left; }
 
 /* line 90, ../sass/screen.sass */
 .tags {
