@@ -21,13 +21,13 @@ layers by its two parts: Action View and Action Controller. These two layers
 are bundled in a single package due to their heavy interdependence. This is
 unlike the relationship between the Active Record and Action Pack that is much
 more separate. Each of these packages can be used independently outside of
-Rails.  You can read more about Action Pack in
+Rails.  You can read more about Action Pack at
 link:files/vendor/rails/actionpack/README.html.
 
 
 == Getting Started
 
-1. At the command prompt, start a new Rails application using the <tt>rails</tt> command
+1. At the command prompt, start a new Rails application using the <tt >rails </tt> command
    and your application name. Ex: rails myapp
 2. Change directory into myapp and start the web server: <tt>script/server</tt> (run with --help for options)
 3. Go to http://localhost:3000/ and get "Welcome aboard: You're riding the Rails!"
@@ -87,7 +87,7 @@ RewriteRule ^(.*)$ dispatch.cgi [QSA,L]
 # Instead of displaying this message you can supply a file here which will be rendered instead
 # 
 # Example:
-#   ErrorDocument 500 /500.html
+#   ErrorDocument 500/500.html
 
 ErrorDocument 500 "<h2>Application error</h2>Rails application failed to start properly"
 
@@ -124,7 +124,7 @@ Also, Ruby documentation can be found at http://www.ruby-lang.org/ including:
 * The Learning Ruby (Pickaxe) Book: http://www.ruby-doc.org/docs/ProgrammingRuby/
 * Learn to Program: http://pine.fm/LearnToProgram/  (a beginners guide)
 
-These two online (and free) books will bring you up to speed on the Ruby language
+These two online (and absolutely free) books will bring you up to speed on the Ruby language
 and also on programming in general.
 
 
